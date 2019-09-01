@@ -1,7 +1,7 @@
-diff --git a/src/org.kde.kontact.appdata.xml b/src/org.kde.kontact.appdata.xml
+diff --git a/src/data/org.kde.kontact.appdata.xml b/src/data/org.kde.kontact.appdata.xml
 index 9b7ba71..86906e5 100644
---- a/src/org.kde.kontact.appdata.xml
-+++ b/src/org.kde.kontact.appdata.xml
+--- a/src/data/org.kde.kontact.appdata.xml
++++ b/src/data/org.kde.kontact.appdata.xml
 @@ -230,7 +230,7 @@
        <image type="source" width="1280" height="720">https://kontact.kde.org/assets/img/appstream/kontact-summary.png</image>
      </screenshot>
@@ -38,12 +38,13 @@ index 9b7ba71..86906e5 100644
        <caption xml:lang="ca">Mantingueu-vos al corrent de les notícies amb l'Akregator, el nostre lector de notícies.</caption>
        <caption xml:lang="ca-valencia">Mantingueu-vos al corrent de les notícies amb l'Akregator, el nostre lector de notícies.</caption>
        <caption xml:lang="en-GB">Stay on top of the new with Akregator, our news reader.</caption>
-@@ -315,4 +315,10 @@
+@@ -315,4 +315,11 @@
    <provides>
      <binary>kontact</binary>
    </provides>
 +  <content_rating type="oars-1.1" />
 +  <releases>
++    <release version="19.08.1" date="2019-09-01" type="stable" />
 +    <release version="19.04.1" date="2019-05-09" type="stable" />
 +    <release version="18.12.2" date="2019-02-12" type="stable" />
 +    <release version="18.08.2" date="2018-10-11" type="stable" />
