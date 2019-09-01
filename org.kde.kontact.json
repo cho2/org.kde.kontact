@@ -570,6 +570,21 @@
             ]
         },
         {
+            "name": "purpose",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/frameworks/5.61/purpose-5.61.0.tar.xz",
+                    "sha256": "810a660d0a4d6de41e1b4d00fcb039d3b099ceae65ec96261ca8dd1fba458d08"
+                }
+            ]
+        },
+        {
             "name": "pimcommon",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
